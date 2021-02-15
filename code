@@ -1,0 +1,24 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    
+    int a, b;
+    printf("Enter your first number:");
+    scanf("%d", &a);
+    printf("Enter your second number:");
+    scanf("%d", &b);
+    
+    
+    
+    printf("\nthe sum of two numbers you entered are %d", a + b);
+    printf("\nthe difference of you entered two numbers are %d", a - b);
+    
+     
+         printf("\nthe qoutient of you entered two numbers are %d", a / b);
+          printf("\nremainder %d", a % b);
+   
+    printf("\nthe product of you entered two numbers are %d", a * b);
+    
+    return 0;
+}
